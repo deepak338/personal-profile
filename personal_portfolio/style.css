@@ -1,7 +1,9 @@
 body{
+    color: #405140;
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', cursive;
+    width: 100%;
 }
 h1{
     font-size: 5.625rem;
@@ -16,6 +18,7 @@ h2{
     font-family: 'Montserrat', sans-serif;
     color:  #66BFBF;
     font-weight: normal;
+    padding-bottom: 10px;
 }
 h3{
     font-family: 'Montserrat', sans-serif;
@@ -24,14 +27,16 @@ h3{
 .top-container{
     background-color: #E4F9F5; 
     position: relative;
-    padding-top: 100px;   
+    padding-top: 100px;  
+    width: 100%; 
 }
 .bottom-cloud{
     position: absolute;
 
 }
 .top-cloud{
-    margin:50px 400px;
+    margin:50px 400px 50px 1000px;
+
 }
 .footer-link{
     padding: 2px;
@@ -90,7 +95,39 @@ h3{
     text-decoration: none;
   }
 
+.middle-container{
+    margin: 100px 0;
+    width: 100%;
+}
 .bottom-container{
     padding: 20px;
+    background-color: #66BFBF ;
+    width: 100%;
+}
+.intro{
+    width: 30%;
+    margin: auto;
+}
+
+hr{
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+a{
+    color: #11999E;
+    font-family: 'montserrat',sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:hover{
+    color: #EAF6F6;
+
+}
+
+.copyright{
+    color: #EAF6F6;
+    font-size: 0.75rem;
 }
 
